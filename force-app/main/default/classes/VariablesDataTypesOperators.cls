@@ -33,10 +33,15 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Integer addition(Integer a, Integer b) {      
         Integer result;
-        if (a != null && b != null) {
-            result = a + b;
-        } else {
+        // if (a != null && b != null) {
+        //     result = a + b;
+        // } else {
+        //     result = null;
+        // }
+        if (a == null || b == null) {
             result = null;
+        } else {
+            result = a + b;
         }
         return result; // Replace null with the variable you used to store the result
     }
