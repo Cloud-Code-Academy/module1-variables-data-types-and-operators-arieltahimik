@@ -8,3 +8,19 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+
+List<Integer> ints = new List<Integer>{1, 2, 3,4};
+for (Integer i = 0; i < ints.size(); i++) {
+	System.debug(ints[i]);
+}
+
+Set<String> strs = new Set<String>();
+strs.add('brooks');
+strs.add('tony');
+strs.add('brooks');
+strs.add('ariel');
+
+for (String s: strs) {
+  System.debug(s);
+}
