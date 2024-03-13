@@ -54,6 +54,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
+     * Question 3
      * Performs multiplication of two numbers.
      * Example: multiplication(2, 3) should return 6
      * @param a The first number.
@@ -67,7 +68,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 3
+     * Question 4
      * Performs division of two numbers.
      * If the denominator is zero, return 0 to avoid division by zero error.
      * Example: division(6, 3) should return 2
@@ -86,7 +87,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 4
+     * Question 5
      * Checks if a number is even.
      * Example: isEven(2) should return true
      * This concept is not specifically covered in the content this week, but you can use the Math class and the modulus function to understand if the number is even or odd.
@@ -104,7 +105,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 5
+     * Question 6
      * Checks if a number is positive.
      * Example: isPositive(2) should return true
      * @param num The number to check.
@@ -115,7 +116,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 6
+     * Question 7
      * Concatenates two strings.
      * Example: concatenateStrings('Hello', 'World') should return 'HelloWorld'
      * @param str1 The first string.
@@ -127,7 +128,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
 	/**
-     * Question 7
+     * Question 8
 	 * Constructs a sentence by concatenating a given noun, verb, and ending punctuation.
 	 * The sentence is structured to begin with 'The', followed by the noun, then 'is', the verb, and finally the ending punctuation.
 	 * Example: createSentence('cat', 'jumping', '!') should return 'The cat is jumping!'
@@ -142,7 +143,7 @@ public with sharing class VariablesDataTypesOperators {
 	}
 
     /**
-     * Question 8
+     * Question 9
      * Checks if a date is in the past.
      * Example: isDateInPast(Date.newInstance(2019, 1, 1)) should return true
      * The concept of getting the current date is not specifically covered in the content this week, but you can use the Date class to get the current date.
@@ -155,7 +156,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 9
+     * Question 10
      * Checks if a date is today or in the future.
      * Example: isDateTodayOrFuture(Date.newInstance(2019, 1, 1)) should return false
      * The concept of getting the current date is not specifically covered in the content this week, but you can use the Date class to get the current date.
@@ -168,7 +169,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 10
+     * Question 11
      * Converts the number of minutes to milliseconds.
      * The conversion factor from minutes to milliseconds is a constant of 60000.
      * Formula: Milliseconds = minutes * 60000
@@ -182,7 +183,7 @@ public with sharing class VariablesDataTypesOperators {
     }    
 
     /**
-     * Question 11
+     * Question 12
      * Calculates the average of three numbers.
      * Formula: Average = (Sum of Numbers) ÷ (Total Numbers)
      * Example: averageOfThreeNumbers(1, 2, 3) should return 2
@@ -196,7 +197,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 12
+     * Question 13
      * Adjusts the order of operations in an arithmetic expression to produce a desired result.
      * In this case, parentheses are added to the expression (5 + 7) * 3 to ensure that addition is performed before multiplication.
      * Example: adjustOrderOfOperations1(5, 7, 3) should return 36
@@ -210,7 +211,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 13
+     * Question 14
      * Modifies the expression to adhere to PEMDAS rules in order to change its result.
      * @return The result of the expression after modifications.
      */
@@ -222,7 +223,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 14
+     * Question 15
      * Adjusts the order of operations in an arithmetic expression to produce a desired result.
      * In this case, parentheses are added to the expression (a * b - c) / d + e to ensure that 
      * multiplication and subtraction are performed before division, which in turn is performed 
@@ -241,7 +242,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 15
+     * Question 16
      * Converts the temperature from Fahrenheit to Celsius.
      * Formula: Celsius = (Fahrenheit - 32) * 5/9.
      * @param fahrenheit The temperature in Fahrenheit.
@@ -256,7 +257,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 16
+     * Question 17
      * Performs division and returns the result as a casted Integer.
      * It should cast the result to an Integer.
      * Example: 3 / 2 => 1.5 should return 1
@@ -273,7 +274,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 17
+     * Question 18
      * Calculate the weekly and monthly paycheck based on hourly rate and number of hours.
      * Weekly Paycheck is calculated by the formula: rate multiplied by hours.
      * Example: calculateWeeklyPaycheck(10.0, 40.0) should return 400.0
@@ -287,7 +288,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 18
+     * Question 19
      * Calculate the weekly and monthly paycheck based on hourly rate and number of hours.
      * Weekly Paycheck is calculated by the formula: rate multiplied by hours.
      * Monthly Paycheck is calculated by the formula: weekly paycheck multiplied by 4.
@@ -301,7 +302,7 @@ public with sharing class VariablesDataTypesOperators {
     }
 
     /**
-     * Question 19
+     * Question 20
      * Calculates the total cost based on price per unit, number of units, and a sales tax rate.
      * Total cost is calculated by the formula: (pricePerUnit * numberOfUnits) * (1 + salesTaxRate).
      * Example: calculateTotalCost(1.0, 2, 0.05) should return 2.1
