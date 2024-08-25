@@ -46,3 +46,6 @@ $RECYCLE.BIN/
 
 .vscode/
 .husky/
+
+# MY STUFF
+/scripts/apex/hello.apex
